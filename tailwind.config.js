@@ -12,7 +12,7 @@ export default {
       },
       colors: {
       "primary": "#1BBF00",
-      "secondary": "#160C6D"
+      "secondary": "#160c6d99"
       },
       maxWidth : {
        "container": "1170px"

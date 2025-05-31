@@ -10,8 +10,10 @@ import Button from '../components/Button'
 
 const Navbar = () => {
   return (
+
+    // If need to keep navbar to be fixed on top then use property "fixed" and can't use absolute postion then. Fixed will also works like absolute
     
- <nav className='bg-secondary py-[18px]'>
+ <nav className='bg-secondary py-[18px] absolute top-0 left-0 w-full z-20'>
 
   <Container>
     <Flex className="items-center justify-between">
