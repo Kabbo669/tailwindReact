@@ -8,7 +8,7 @@ const Banner = () => {
 
   return (
 
-    <section className=' bg-bannerBackground w-full bg-no-repeat bg-cover bg-center relative min-h-[860px]'>
+    <section className=' bg-bannerBackground w-full bg-no-repeat bg-cover bg-center relative h-[860px]'>
 
     <div className='bg-[#6b62c5e6] inset-0 absolute flex justify-center items-center'>
       
