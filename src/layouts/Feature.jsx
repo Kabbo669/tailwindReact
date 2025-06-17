@@ -8,21 +8,21 @@ import FeatureToggle from '../components/FeatureToggle'
 
 const Feature = () => {
   return (
-   <section className='bg-[#FDFDFD] py-24'>
+   <section className='bg-[#FDFDFD] py-[25px] md:py-24'>
   <Container>
-  <Flex>
-   <div className='w-1/2'>
-   <FeatureToggle className=" py-[32px]"/>
-   <FeatureToggle className="py-[32px]"/>
-   <FeatureToggle/>
-   <FeatureToggle/>
-   <FeatureToggle/>
+  <Flex className="flex-col md:flex-row">
+   <div className='w-auto md:w-1/2 pb-5 md:pb-0'>
+   <FeatureToggle className='py-[15px] md:py-[25px]'/>
+   <FeatureToggle className= 'py-[10px] md:py-[25px]'/>
+   <FeatureToggle className= 'py-[10px] md:py-[25px]'/>
+   <FeatureToggle className= 'py-[10px] md:py-[25px]'/>
+   <FeatureToggle className= 'py-[10px] md:py-[25px]'/>
    </div>
 
-   <div className='w-1/2 pl-[150px]'>
+   <div className='text-center md:text-left md:w-1/2 px-3 md:pl-[150px] py-10'>
    <CommonHeading  text = "Why Choose Us"/>
-   <SubHeading className=" w-[393px] pt-3 pb-10" text = "We are now a team of strategists, engineers, designers, and marketers who both use and develop technology for a variety of client needs."/>
-   <Button className = "hover:text-black" text = "Contact Us"/>
+   <SubHeading className="w-auto md:w-[393px] pt-3 pb-10" text = "We are now a team of strategists, engineers, designers, and marketers who both use and develop technology for a variety of client needs."/>
+   <Button className = " hover:text-black" text = "Contact Us"/>
    </div>
   </Flex>
   </Container> 

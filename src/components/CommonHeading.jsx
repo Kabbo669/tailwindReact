@@ -2,7 +2,7 @@ import React from 'react'
 
 const commonHeading = ({text, className}) => {
   return (
-    <h2 className={`text-third text-5xl font-open font-bold ${className}`}>{text}</h2>
+    <h2 className={`text-third text-3xl md:text-5xl font-open font-bold ${className}`}>{text}</h2>
   )
 }
 
